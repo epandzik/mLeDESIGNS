@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
     jQuery("nav").wrap('<div class="nav-placeholder"></div>');
     jQuery(".nav-placeholder").height(jQuery("nav").outerHeight());
 
-    jQuery("nav").wrapInner('<div class="nav-inner"</div>');
+    jQuery("nav").wrapInner('<div class="nav-inner"></div>');
 
     jQuery(window).scroll(function() {
         var scrollPos = jQuery(window).scrollTop();
