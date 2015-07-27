@@ -57,10 +57,22 @@ span#swap {
 #masthead {
     display: none;
 }
+/*
 span#navSwap {
+    ul.nav {
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    ul.nav a {
+        text-decoration: none;
+        color: #000;
+        background-color: #e0150f;
+    }
+
     .vertical_menu {
-        border: 1px dotted blue;
-        background-color: #EEFFFF;
+        border: 1px dotted white;
+        background-color: #e0150f;
         margin: 5px;
         padding: 5px;
     }
@@ -72,7 +84,7 @@ span#navSwap {
                       a:visited {
     text-decoration: none;
     font-family: "Gentium Book Basic", serif;
-    color: #555;
+    color: #000;
 }
     .vertical_menu li a:hover,
                       a:active {
@@ -83,6 +95,8 @@ span#navSwap {
     .navList {
     display:none;
 }
+
+*/
 
 }
 
@@ -178,7 +192,7 @@ a:link,
 a:visited {
     text-decoration: none;
     font-family: "Gentium Book Basic", serif;
-    color: #555;
+    color: #000;
 }
 
 /* mouse over and selected links */
