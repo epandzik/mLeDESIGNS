@@ -3,6 +3,10 @@ http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Clipping_and_Masking
 http://www.techrepublic.com/blog/web-designer/how-to-use-the-css-clip-and-mask-properties/
 http://codepen.io/SahAssar/pen/YPWxWX
 */
+#header {
+    overflow:hidden;
+}
+
 
 video {
     left:0px;
@@ -21,9 +25,9 @@ video {
 
 html{
     height: 100%;
-    overflow:hidden;
     font-weight:100;
 }
 body {
     margin: 0;
+    overflow:scroll;
 }
