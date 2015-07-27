@@ -1,3 +1,11 @@
+$(document).ready(function() {
+ $('.fancybox').fancybox({
+  beforeShow : function(){
+   this.title =  this.title + " - " + $(this.element).data("caption");
+  }
+ });
+});
+
 /**
  * Created by AnalyzeAdmin on 6/17/15.
  * https://css-tricks.com/forums/topic/jquery-popup-gallery-click-image-to-open-gallery-with-other-images/

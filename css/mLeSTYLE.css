@@ -51,11 +51,39 @@ span#swap {
     background-color: white;
     background: url("../assets/mLe_GIFnoLoop480.gif") center 0 no-repeat;
     width: 100%;  
-    height: 250px;
+    max-height: 250px;
+    max-width:480px;
     }
 #masthead {
     display: none;
 }
+span#navSwap {
+    .vertical_menu {
+        border: 1px dotted blue;
+        background-color: #EEFFFF;
+        margin: 5px;
+        padding: 5px;
+    }
+    .vertical_menu li {
+        list-style: none;
+        margin: 5px;
+    }
+    .vertical_menu li a:link,
+                      a:visited {
+    text-decoration: none;
+    font-family: "Gentium Book Basic", serif;
+    color: #555;
+}
+    .vertical_menu li a:hover,
+                      a:active {
+    text-style: bold;
+    font-family: "Gentium Book Basic", serif;
+    color: #e0150f;
+}
+    .navList {
+    display:none;
+}
+
 }
 
 
